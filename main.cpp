@@ -5,7 +5,10 @@ using std::cout;
 
 int main()
 {
-    cout<<"Hi, please enter two numbers: ";
+  int first=0;
+  int second=0;
+  cout<<"Hi, please enter two numbers: ";
+  cin>>first>>second;
 
-    return 0;
+  return 0;
 }
